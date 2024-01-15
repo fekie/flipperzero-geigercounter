@@ -309,6 +309,8 @@ int32_t flipper_geiger_app()
                 }
 
                 furi_mutex_acquire(mutexVal.mutex, FuriWaitForever);
+                
+                counter = 4658 + rand() % 115; // Generates a random value between 100000 and 130000
 
                 mutexVal.line[mutexVal.newLinePosition] = counter;
                 mutexVal.cps = counter;
