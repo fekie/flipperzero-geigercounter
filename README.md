@@ -1,3 +1,6 @@
+# Disclaimer
+THIS IS A FORK OF THE GEIGER COUNTER PROGRAM THAT PRODUCES FAKE READINGS.
+
 # flipperzero-geigercounter
 ☢☢ A geiger counter application for the Flipper Zero ☢☢
 
